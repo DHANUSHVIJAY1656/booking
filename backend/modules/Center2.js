@@ -8,6 +8,6 @@ const bookingSchema = new mongoose.Schema({
   hospital: { type: String, required: true },
 });
 
-const Booking = mongoose.model("Booking", bookingSchema);
+const Center2 = mongoose.model("Center2", bookingSchema);
 
-module.exports = Booking;
+module.exports = Center2;
